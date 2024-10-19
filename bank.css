@@ -1,0 +1,173 @@
+body{
+   background-color: rgb(183, 228, 243);
+}
+
+*{
+    margin: 0;
+}
+.hd{
+    color: white;
+}
+
+#raja{
+    border: 1px solid ;
+    border-radius: 2px;
+    background-color:  rgb(10, 156, 209);
+    height: 120px;
+    box-shadow: 2px 2px 2px rgb(19, 19, 16);
+    color: white;
+
+}
+#im{
+    display: inline ;
+    height: 120px;
+    width: 150px;
+    border: 1px solid white;
+
+   
+}
+#im1{
+    width: 450px;
+    height: 220px;
+    margin-right: 200px;
+    box-shadow: 2px 2px 2px rgb(7, 7, 7);
+    border-radius: 10px;
+}
+h1{
+    font-size: 70px;
+    margin-left: 350px;
+    margin-top: -120px;
+    color: #0a0808;
+
+}
+table{
+    margin-left:850px ;
+    font-size: 25px;
+    color: #160ab9;
+    margin-top: 10px;
+}
+.same{
+    display: flex; 
+    align-items: flex-start; 
+    line-height: 40px;
+}
+.scroll-container {
+    height: 230px; 
+    width:100pc; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    position: relative;
+   margin-right: 20px;
+   margin-top: 5px;
+   border: 0px;
+}
+.scroll-right {
+    position: absolute; 
+    animation: scroll-right 5s linear infinite;
+    list-style-type: none;
+    margin-left: 200px;
+    } 
+
+@keyframes scroll-right {
+    0% {
+        transform: translatey(100%); 
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+.line{
+    line-height: 25px;
+}
+.rem{
+    font-weight: 700;
+
+}
+.same1{
+   float: right;
+   height: 100px;
+   width: 190px;
+   margin-right: 25px;
+   margin-top: -6pc;
+   border-radius: 5px;
+   box-shadow: 3px 3px 5px rgb(19, 19, 16);
+   
+}
+#same2{
+    float: right;
+   height: 100px;
+   width: 190px;
+   margin-right: 40px;
+   margin-top: -6pc;
+   border-radius: 5px;
+   box-shadow: 3px 3px 3px rgb(19, 19, 16);
+}
+.same3{
+    float: right;
+   height: 100px;
+   width: 190px;
+   margin-right: 30px;
+   margin-top: -6pc;
+   border-radius: 5px;
+   box-shadow: 3px 3px 3px rgb(19, 19, 16);
+}
+.same4{
+    float: right;
+   height: 100px;
+   width: 190px;
+   margin-right: 30px;
+   margin-top: -6pc;
+   border-radius: 5px;
+   box-shadow: 3px 3px 3px rgb(19, 19, 16);
+}
+h4{
+    display: inline;
+  
+}
+#ser{
+    margin-left: 400px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.rem{
+    text-decoration: none;
+    margin-left: 40px;
+}
+.rem1{
+    text-decoration: none;
+    
+}
+.remo{
+    text-decoration: none;
+     font-weight: 700;
+     margin-left: 0px;
+     
+
+}
+input[type="text"],
+input[type="password"]{
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #191515;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: #b5dbeb;
+        
+}
+label {
+    font-size: 16px; /* Change font size */
+    font-weight: 700; /* Make the text bold */
+    color: black; /* Text color */
+    margin-bottom: 10px;
+    display: block; /* Makes the label take up the full width */
+}
+.meow{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+}
+
+
+
